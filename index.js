@@ -1,6 +1,6 @@
 class Entertainment {
   constructor(cast, audience, duration, crew) {
-    this.cast = cast || "null"
+    this.cast = cast || []
     this.audience = audience || 0
     this.duration = duration || 0
     this.crew = crew || 0
